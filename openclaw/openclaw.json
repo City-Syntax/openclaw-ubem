@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.4.5",
+    "lastTouchedAt": "2026-04-22T13:53:49.203Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-22T13:53:49.124Z",
+    "lastRunVersion": "2026.4.5",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "moonshot:default": {
+        "provider": "moonshot",
+        "mode": "api_key"
+      },
+      "ollama:default": {
+        "provider": "ollama",
+        "mode": "api_key"
+      },
+      "anthropic:default": {
+        "provider": "anthropic",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "moonshot": {
+        "baseUrl": "https://api.moonshot.ai/v1",
+        "apiKey": "your api",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "kimi-k2.5",
+            "name": "Kimi K2.5",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 256000,
+            "maxTokens": 8192,
+            "api": "openai-completions"
+          }
+        ]
+      },
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434",
+        "apiKey": "ollama-local",
+        "api": "ollama",
+        "models": [
+          {
+            "id": "llama3.1:8b",
+            "name": "llama3.1:8b",
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 131072,
+            "reasoning": false,
+            "maxTokens": 8192,
+            "api": "ollama"
+          }
+        ]
+      },
+      "openai": {
+        "baseUrl": "https://api.openai.com/v1",
+        "apiKey": "/",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gpt-5.4",
+            "name": "GPT-5.4",
+            "api": "openai-completions",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 2,
+              "output": 8,
+              "cacheRead": 0.5,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1047576,
+            "maxTokens": 32768
+          }
+        ]
+      },
+      "anthropic": {
+        "baseUrl": "https://api.anthropic.com/v1",
+        "apiKey": "your api",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "Claude Sonnet 4-6",
+            "api": "anthropic-messages",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 3,
+              "output": 15,
+              "cacheRead": 0.3,
+              "cacheWrite": 3.75
+            },
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "anthropic/claude-sonnet-4-6",
+        "fallbacks": [
+          "providers",
+          "ollama/llama3.1:8b"
+        ]
+      },
+      "models": {
+        "providers": {},
+        "ollama/llama3.1:8b": {},
+        "anthropic/claude-sonnet-4-6": {}
+      },
+      "workspace": "/Users/ye/.openclaw/workspace",
+      "sandbox": {
+        "mode": "all"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "name": "main",
+        "workspace": "/Users/ye/.openclaw/workspace",
+        "agentDir": "/Users/ye/.openclaw/agents/main/agent",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-6",
+          "fallbacks": [
+            "anthropic/claude-sonnet-4-6"
+          ]
+        },
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "full",
+          "alsoAllow": [
+            "browser",
+            "canvas",
+            "message",
+            "gateway",
+            "nodes",
+            "agents_list",
+            "tts"
+          ],
+          "exec": {
+            "pathPrepend": [
+              "/usr/bin",
+              "/usr/local/bin",
+              "/opt/homebrew/bin"
+            ]
+          }
+        }
+      },
+      {
+        "id": "orchestrator",
+        "name": "OrchestratorAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-orchestrator",
+        "agentDir": "/Users/ye/.openclaw/agents/orchestrator/agent",
+        "model": "anthropic/claude-sonnet-4-6",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "full",
+          "alsoAllow": [
+            "message",
+            "sessions_spawn",
+            "sessions_yield",
+            "sessions_send",
+            "subagents",
+            "cron",
+            "read",
+            "exec"
+          ]
+        }
+      },
+      {
+        "id": "anomalyagent",
+        "name": "AnomalyAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-anomalyagent",
+        "agentDir": "/Users/ye/.openclaw/agents/anomalyagent/agent",
+        "model": "anthropic/claude-sonnet-4-6",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "memory_search",
+            "memory_get"
+          ]
+        }
+      },
+      {
+        "id": "diagnosisagent",
+        "name": "DiagnosisAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-diagnosisagent",
+        "agentDir": "/Users/ye/.openclaw/agents/diagnosisagent/agent",
+        "model": "anthropic/claude-sonnet-4-6",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "memory_search",
+            "memory_get"
+          ]
+        }
+      },
+      {
+        "id": "simulationagent",
+        "name": "SimulationAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-simulationagent",
+        "agentDir": "/Users/ye/.openclaw/agents/simulationagent/agent",
+        "model": "ollama/llama3.1:8b",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "full"
+        }
+      },
+      {
+        "id": "recalibrationagent",
+        "name": "RecalibrationAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-recalibrationagent",
+        "agentDir": "/Users/ye/.openclaw/agents/recalibrationagent/agent",
+        "model": "anthropic/claude-sonnet-4-6",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "full",
+          "alsoAllow": [
+            "message",
+            "read",
+            "write",
+            "exec"
+          ]
+        }
+      },
+      {
+        "id": "reportagent",
+        "name": "ReportAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-reportagent",
+        "agentDir": "/Users/ye/.openclaw/agents/reportagent/agent",
+        "model": "moonshot/kimi-k2.5",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "full"
+        }
+      },
+      {
+        "id": "slacknotificationagent",
+        "name": "SlackNotificationAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-slacknotificationagent",
+        "agentDir": "/Users/ye/.openclaw/agents/slacknotificationagent/agent",
+        "model": "ollama/llama3.1:8b",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "message"
+          ]
+        }
+      },
+      {
+        "id": "queryagent",
+        "name": "QueryAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-queryagent",
+        "agentDir": "/Users/ye/.openclaw/agents/queryagent/agent",
+        "model": "anthropic/claude-sonnet-4-6",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "read",
+            "memory_search",
+            "memory_get",
+            "message"
+          ]
+        }
+      },
+      {
+        "id": "carbonagent",
+        "name": "CarbonAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-compass",
+        "agentDir": "/Users/ye/.openclaw/agents/carbonagent/agent",
+        "model": "anthropic/claude-sonnet-4-6",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "full"
+        }
+      },
+      {
+        "id": "weatheragent",
+        "name": "WeatherAgent",
+        "workspace": "/Users/ye/.openclaw/workspace-weatheragent",
+        "agentDir": "/Users/ye/.openclaw/agents/weatheragent/agent",
+        "model": "anthropic/claude-sonnet-4-6",
+        "sandbox": {
+          "mode": "off"
+        },
+        "tools": {
+          "profile": "full",
+          "alsoAllow": [
+            "read",
+            "exec",
+            "memory_search",
+            "memory_get"
+          ]
+        }
+      }
+    ]
+  },
+  "tools": {
+    "profile": "minimal",
+    "deny": [],
+    "web": {
+      "search": {
+        "enabled": false
+      },
+      "fetch": {
+        "enabled": false
+      }
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "channels": {
+    "slack": {
+      "mode": "socket",
+      "webhookPath": "/slack/events",
+      "enabled": true,
+      "configWrites": true,
+      "botToken": "your bot",
+      "appToken": "your app",
+      "userTokenReadOnly": true,
+      "allowBots": true,
+      "dangerouslyAllowNameMatching": false,
+      "groupPolicy": "allowlist",
+      "streaming": "partial",
+      "channels": {
+        "#private": {
+          "enabled": true
+        },
+        "openclaw-alerts": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "token"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "canvas.eval",
+        "canvas.a2ui.push",
+        "canvas.a2ui.pushJSONL",
+        "canvas.a2ui.reset"
+      ]
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "slack": {
+        "enabled": true,
+        "config": {}
+      },
+      "browser": {
+        "enabled": true,
+        "config": {}
+      },
+      "anthropic": {
+        "enabled": true,
+        "config": {}
+      },
+      "ollama": {
+        "enabled": true
+      },
+      "moonshot": {
+        "enabled": true
+      },
+      "openai": {
+        "enabled": true,
+        "config": {
+          "personality": "friendly"
+        }
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  }
+}
