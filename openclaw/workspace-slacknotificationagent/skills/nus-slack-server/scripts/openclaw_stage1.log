@@ -1,0 +1,62 @@
+2026-03-23 22:04:13,204  [INFO]  [FOE13] Loaded IDF — /Users/ye/nus-energy/outputs/FOE13/intervention/idfs/FOE13.idf
+2026-03-23 22:04:13,215  [INFO]  [FOE13] Tropical adjustments applied ✓
+2026-03-23 22:04:13,356  [INFO]  [FOE13] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE13/prepared/FOE13_prepared.idf
+2026-03-23 22:04:13,383  [INFO]  [FOE13] Cleaned 16 stale files from /Users/ye/nus-energy/outputs/FOE13/simulation
+2026-03-23 22:04:13,383  [INFO]  [FOE13] Starting EnergyPlus simulation...
+2026-03-23 22:04:13,383  [INFO]  [FOE13] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw --output-directory /Users/ye/nus-energy/outputs/FOE13/simulation --output-prefix FOE13 /Users/ye/nus-energy/outputs/FOE13/prepared/FOE13_prepared.idf
+2026-03-23 22:06:08,731  [INFO]  [FOE13] Simulation completed in 115.3s ✓
+2026-03-23 22:06:08,733  [INFO]  [FOE13] Floor area: 19568 m²  Annual EUI: 81.9 kWh/m²/yr
+2026-03-23 22:06:08,735  [INFO]  [FOE13] Monthly results → /Users/ye/nus-energy/outputs/FOE13/parsed/FOE13_monthly.csv (12 rows)
+2026-03-23 22:06:09,637  [INFO]  [FOE18] Loaded IDF — /Users/ye/nus-energy/outputs/FOE18/intervention/idfs/FOE18.idf
+2026-03-23 22:06:09,640  [INFO]  [FOE18] Tropical adjustments applied ✓
+2026-03-23 22:06:09,673  [INFO]  [FOE18] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE18/prepared/FOE18_prepared.idf
+2026-03-23 22:06:09,680  [INFO]  [FOE18] Cleaned 16 stale files from /Users/ye/nus-energy/outputs/FOE18/simulation
+2026-03-23 22:06:09,680  [INFO]  [FOE18] Starting EnergyPlus simulation...
+2026-03-23 22:06:09,680  [INFO]  [FOE18] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw --output-directory /Users/ye/nus-energy/outputs/FOE18/simulation --output-prefix FOE18 /Users/ye/nus-energy/outputs/FOE18/prepared/FOE18_prepared.idf
+2026-03-23 22:06:29,071  [INFO]  [FOE18] Simulation completed in 19.4s ✓
+2026-03-23 22:06:29,071  [INFO]  [FOE18] Floor area: 16388 m²  Annual EUI: 81.9 kWh/m²/yr
+2026-03-23 22:06:29,073  [INFO]  [FOE18] Monthly results → /Users/ye/nus-energy/outputs/FOE18/parsed/FOE18_monthly.csv (12 rows)
+2026-03-23 22:06:30,458  [INFO]  [FOE6] Loaded IDF — /Users/ye/nus-energy/outputs/FOE6/intervention/idfs/FOE6.idf
+2026-03-23 22:06:30,465  [INFO]  [FOE6] Tropical adjustments applied ✓
+2026-03-23 22:06:30,569  [INFO]  [FOE6] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE6/prepared/FOE6_prepared.idf
+2026-03-23 22:06:30,594  [INFO]  [FOE6] Cleaned 16 stale files from /Users/ye/nus-energy/outputs/FOE6/simulation
+2026-03-23 22:06:30,594  [INFO]  [FOE6] Starting EnergyPlus simulation...
+2026-03-23 22:06:30,594  [INFO]  [FOE6] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw --output-directory /Users/ye/nus-energy/outputs/FOE6/simulation --output-prefix FOE6 /Users/ye/nus-energy/outputs/FOE6/prepared/FOE6_prepared.idf
+2026-03-23 22:07:47,524  [INFO]  [FOE6] Simulation completed in 76.9s ✓
+2026-03-23 22:07:47,525  [INFO]  [FOE6] Floor area: 8871 m²  Annual EUI: 81.9 kWh/m²/yr
+2026-03-23 22:07:47,527  [INFO]  [FOE6] Monthly results → /Users/ye/nus-energy/outputs/FOE6/parsed/FOE6_monthly.csv (12 rows)
+2026-03-23 22:07:48,844  [INFO]  [FOS43] Loaded IDF — /Users/ye/nus-energy/outputs/FOS43/intervention/idfs/FOS43.idf
+2026-03-23 22:07:48,850  [INFO]  [FOS43] Tropical adjustments applied ✓
+2026-03-23 22:07:48,938  [INFO]  [FOS43] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOS43/prepared/FOS43_prepared.idf
+2026-03-23 22:07:48,946  [INFO]  [FOS43] Cleaned 16 stale files from /Users/ye/nus-energy/outputs/FOS43/simulation
+2026-03-23 22:07:48,958  [INFO]  [FOS43] Starting EnergyPlus simulation...
+2026-03-23 22:07:48,958  [INFO]  [FOS43] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw --output-directory /Users/ye/nus-energy/outputs/FOS43/simulation --output-prefix FOS43 /Users/ye/nus-energy/outputs/FOS43/prepared/FOS43_prepared.idf
+2026-03-23 22:09:37,524  [INFO]  [FOS43] Simulation completed in 108.6s ✓
+2026-03-23 22:09:37,526  [INFO]  [FOS43] Floor area: 8411 m²  Annual EUI: 81.9 kWh/m²/yr
+2026-03-23 22:09:37,528  [INFO]  [FOS43] Monthly results → /Users/ye/nus-energy/outputs/FOS43/parsed/FOS43_monthly.csv (12 rows)
+2026-03-23 22:09:39,254  [INFO]  [FOS46] Loaded IDF — /Users/ye/nus-energy/outputs/FOS46/intervention/idfs/FOS46.idf
+2026-03-23 22:09:39,265  [INFO]  [FOS46] Tropical adjustments applied ✓
+2026-03-23 22:09:39,411  [INFO]  [FOS46] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOS46/prepared/FOS46_prepared.idf
+2026-03-23 22:09:39,419  [INFO]  [FOS46] Cleaned 16 stale files from /Users/ye/nus-energy/outputs/FOS46/simulation
+2026-03-23 22:09:39,420  [INFO]  [FOS46] Starting EnergyPlus simulation...
+2026-03-23 22:09:39,432  [INFO]  [FOS46] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw --output-directory /Users/ye/nus-energy/outputs/FOS46/simulation --output-prefix FOS46 /Users/ye/nus-energy/outputs/FOS46/prepared/FOS46_prepared.idf
+2026-03-23 22:12:05,052  [INFO]  [FOS46] Simulation completed in 145.6s ✓
+2026-03-23 22:12:05,054  [INFO]  [FOS46] Floor area: 25951 m²  Annual EUI: 81.9 kWh/m²/yr
+2026-03-23 22:12:05,055  [INFO]  [FOS46] Monthly results → /Users/ye/nus-energy/outputs/FOS46/parsed/FOS46_monthly.csv (12 rows)
+ERROR: SLACK_BOT_TOKEN not set
+2026-03-30 17:33:13,511 [INFO] slack_bolt.App: A new session has been established (session id: 2b4b1395-6df9-47e3-b677-0261df3dbae7)
+2026-03-30 17:33:13,512 [INFO] slack_bolt.App: ⚡️ Bolt app is running!
+2026-03-30 17:33:13,618 [INFO] slack_bolt.App: Starting to receive messages from a new connection (session id: 2b4b1395-6df9-47e3-b677-0261df3dbae7)
+2026-03-30 17:37:04,962 [INFO] slack_bolt.App: A new session has been established (session id: c335c17f-ae30-4884-a3b5-26c6d2930887)
+2026-03-30 17:37:04,962 [INFO] slack_bolt.App: ⚡️ Bolt app is running!
+2026-03-30 17:37:05,023 [INFO] slack_bolt.App: Starting to receive messages from a new connection (session id: c335c17f-ae30-4884-a3b5-26c6d2930887)
+2026-03-30 17:38:42,664 [INFO] slack_bolt.App: A new session has been established (session id: cc3082b2-476f-4d32-9469-e080a772fd74)
+2026-03-30 17:38:42,664 [INFO] slack_bolt.App: ⚡️ Bolt app is running!
+2026-03-30 17:38:42,813 [INFO] slack_bolt.App: Starting to receive messages from a new connection (session id: cc3082b2-476f-4d32-9469-e080a772fd74)
+2026-03-30 17:44:17,772 [INFO] slack_bolt.App: A new session has been established (session id: 4b78ba0f-a08a-4e0d-8e8d-bf59821b8f7c)
+2026-03-30 17:44:17,772 [INFO] slack_bolt.App: ⚡️ Bolt app is running!
+2026-03-30 17:44:17,851 [INFO] slack_bolt.App: Starting to receive messages from a new connection (session id: 4b78ba0f-a08a-4e0d-8e8d-bf59821b8f7c)
+ERROR: SLACK_BOT_TOKEN not set
+2026-03-30 17:51:16,100 [INFO] slack_bolt.App: A new session has been established (session id: fe7d88a9-8a18-4447-9c6f-68d58f06ea3d)
+2026-03-30 17:51:16,100 [INFO] slack_bolt.App: ⚡️ Bolt app is running!
+2026-03-30 17:51:16,198 [INFO] slack_bolt.App: Starting to receive messages from a new connection (session id: fe7d88a9-8a18-4447-9c6f-68d58f06ea3d)

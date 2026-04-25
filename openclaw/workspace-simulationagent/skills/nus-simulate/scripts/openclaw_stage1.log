@@ -1,0 +1,72 @@
+2026-04-10 21:20:59,257  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw)
+2026-04-10 21:20:59,257  [INFO]  [epw] Source: tmy:default  →  /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw
+2026-04-10 21:21:00,104  [INFO]  [FOE1] Loaded IDF — /Users/ye/nus-energy/idfs/A1_L_L/FOE1.idf
+2026-04-10 21:21:00,109  [INFO]  [FOE1] Tropical adjustments applied ✓
+2026-04-10 21:21:00,178  [INFO]  [FOE1] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-10 21:21:00,182  [INFO]  [FOE1] Cleaned 16 stale files from /Users/ye/nus-energy/outputs/FOE1/simulation
+2026-04-10 21:21:00,182  [INFO]  [FOE1] Starting EnergyPlus simulation...
+2026-04-10 21:21:00,182  [INFO]  [FOE1] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw --output-directory /Users/ye/nus-energy/outputs/FOE1/simulation --output-prefix FOE1 /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-10 21:21:47,779  [INFO]  [FOE1] Simulation completed in 47.6s ✓
+2026-04-10 21:21:47,780  [INFO]  [FOE1] Floor area: 17279 m²  Annual EUI: 94.3 kWh/m²/yr
+2026-04-10 21:21:47,780  [INFO]  [FOE1] Annual end-use breakdown:
+2026-04-10 21:21:47,780  [INFO]    Lighting                479,326 kWh  (29.4%)
+2026-04-10 21:21:47,780  [INFO]    Equipment             1,150,383 kWh  (70.6%)
+2026-04-10 21:21:47,780  [INFO]    Cooling              16,031,725 kWh  (983.7%)
+2026-04-10 21:21:47,782  [INFO]  [FOE1] Monthly results → /Users/ye/nus-energy/outputs/FOE1/parsed/FOE1_monthly.csv (12 rows)
+2026-04-10 21:21:47,784  [INFO]  [FOE1] Summary written → /Users/ye/nus-energy/outputs/simulation_summary.csv
+2026-04-10 21:23:10,198  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw)
+2026-04-10 21:23:10,198  [INFO]  [epw] Source: tmy:default  →  /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw
+2026-04-10 21:23:11,081  [INFO]  [FOE1] Loaded IDF — /Users/ye/nus-energy/idfs/A1_L_L/FOE1.idf
+2026-04-10 21:23:11,087  [INFO]  [FOE1] Tropical adjustments applied ✓
+2026-04-10 21:23:11,161  [INFO]  [FOE1] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-10 21:23:11,171  [INFO]  [FOE1] Cleaned 16 stale files from /Users/ye/nus-energy/outputs/FOE1/simulation
+2026-04-10 21:23:11,171  [INFO]  [FOE1] Starting EnergyPlus simulation...
+2026-04-10 21:23:11,171  [INFO]  [FOE1] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw --output-directory /Users/ye/nus-energy/outputs/FOE1/simulation --output-prefix FOE1 /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-10 21:24:01,175  [INFO]  [FOE1] Simulation completed in 50.0s ✓
+2026-04-10 21:24:01,175  [INFO]  [FOE1] Floor area: 17279 m²  Annual EUI: 94.3 kWh/m²/yr
+2026-04-10 21:24:01,175  [INFO]  [FOE1] Annual end-use breakdown:
+2026-04-10 21:24:01,175  [INFO]    Lighting                479,326 kWh  (29.4%)
+2026-04-10 21:24:01,175  [INFO]    Equipment             1,150,383 kWh  (70.6%)
+2026-04-10 21:24:01,175  [INFO]    Cooling              16,031,725 kWh  (983.7%)
+2026-04-10 21:24:01,178  [INFO]  [FOE1] Monthly results → /Users/ye/nus-energy/outputs/FOE1/parsed/FOE1_monthly.csv (12 rows)
+2026-04-10 21:24:01,181  [INFO]  [FOE1] Summary written → /Users/ye/nus-energy/outputs/simulation_summary.csv
+2026-04-10 21:31:26,301  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw)
+2026-04-10 21:31:26,301  [INFO]  [epw] Source: tmy:default  →  /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw
+2026-04-10 21:31:27,163  [INFO]  [FOE1] Loaded IDF — /Users/ye/nus-energy/idfs/A1_L_L/FOE1.idf
+2026-04-10 21:31:27,168  [INFO]  [FOE1] Tropical adjustments applied ✓
+2026-04-10 21:31:27,168  [INFO]  [inject_outputs] Removed 42 pre-existing Output objects from IDF
+2026-04-10 21:31:27,168  [INFO]  [inject_outputs] Injected Output:Meter objects (incl. DistrictCooling) and Output:Variable for Zone Ideal Loads Cooling/Heating Energy ✓
+2026-04-10 21:31:27,239  [INFO]  [FOE1] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-10 21:31:27,251  [INFO]  [FOE1] Cleaned 16 stale files from /Users/ye/nus-energy/outputs/FOE1/simulation
+2026-04-10 21:31:27,251  [INFO]  [FOE1] Starting EnergyPlus simulation...
+2026-04-10 21:31:27,251  [INFO]  [FOE1] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw --output-directory /Users/ye/nus-energy/outputs/FOE1/simulation --output-prefix FOE1 /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-10 21:32:16,059  [INFO]  [FOE1] Simulation completed in 48.8s ✓
+2026-04-10 21:32:16,060  [INFO]  [FOE1] Floor area: 17279 m²  Annual EUI: 94.3 kWh/m²/yr
+2026-04-10 21:32:16,060  [INFO]  [FOE1] Annual end-use breakdown:
+2026-04-10 21:32:16,060  [INFO]    Lighting                479,326 kWh  (29.4%)
+2026-04-10 21:32:16,060  [INFO]    Equipment             1,150,383 kWh  (70.6%)
+2026-04-10 21:32:16,060  [INFO]    Cooling              16,031,725 kWh  (983.7%)
+2026-04-10 21:32:16,062  [INFO]  [FOE1] Monthly results → /Users/ye/nus-energy/outputs/FOE1/parsed/FOE1_monthly.csv (12 rows)
+2026-04-10 21:32:16,064  [INFO]  [FOE1] Summary written → /Users/ye/nus-energy/outputs/simulation_summary.csv
+2026-04-10 21:41:56,318  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw)
+2026-04-10 21:41:56,318  [INFO]  [epw] Source: tmy:default  →  /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw
+2026-04-10 21:41:57,176  [INFO]  [FOE1] Loaded IDF — /Users/ye/nus-energy/idfs/A1_L_L/FOE1.idf
+2026-04-10 21:41:57,180  [INFO]  [FOE1] Tropical adjustments applied ✓
+2026-04-10 21:41:57,181  [INFO]  [inject_outputs] Removed 42 pre-existing Output objects from IDF
+2026-04-10 21:41:57,181  [INFO]  [inject_outputs] Injected Output:Meter objects (incl. DistrictCooling) and Output:Variable for Zone Ideal Loads Cooling/Heating Energy ✓
+2026-04-10 21:41:57,251  [INFO]  [FOE1] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-10 21:41:57,261  [INFO]  [FOE1] Cleaned 16 stale files from /Users/ye/nus-energy/outputs/FOE1/simulation
+2026-04-10 21:41:57,261  [INFO]  [FOE1] Starting EnergyPlus simulation...
+2026-04-10 21:41:57,261  [INFO]  [FOE1] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw --output-directory /Users/ye/nus-energy/outputs/FOE1/simulation --output-prefix FOE1 /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-10 21:42:45,703  [INFO]  [FOE1] Simulation completed in 48.4s ✓
+2026-04-10 21:42:45,704  [INFO]  [FOE1] Floor area: 17279 m²  Annual EUI: 94.3 kWh/m²/yr
+2026-04-10 21:42:45,704  [INFO]  [FOE1] Annual end-use breakdown:
+2026-04-10 21:42:45,704  [INFO]    Lighting                479,326 kWh  (29.4%)
+2026-04-10 21:42:45,704  [INFO]    Equipment             1,150,383 kWh  (70.6%)
+2026-04-10 21:42:45,704  [INFO]    Cooling              16,031,725 kWh  (983.7%)
+2026-04-10 21:42:45,710  [INFO]  [FOE1] Monthly results → /Users/ye/nus-energy/outputs/FOE1/parsed/FOE1_monthly.csv (12 rows)
+2026-04-10 21:42:45,718  [INFO]  [FOE1] Summary written → /Users/ye/nus-energy/outputs/simulation_summary.csv
+2026-04-11 17:30:20,000  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw)
+2026-04-11 17:30:20,000  [INFO]  [epw] Source: tmy:default  →  /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw
+2026-04-11 17:30:30,322  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw)
+2026-04-11 17:30:30,322  [INFO]  [epw] Source: tmy:default  →  /Users/ye/nus-energy/weather/SGP_Singapore.486980_IWEC.epw

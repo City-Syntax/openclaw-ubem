@@ -1,0 +1,285 @@
+2026-03-19 14:50:23,321  [ERROR]  No IDF files found in idfs
+2026-03-19 14:51:30,549  [INFO]  Found 23 IDF files to simulate
+2026-03-19 14:51:30,549  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:30,549  [INFO]  Processing: BIZ12
+2026-03-19 14:51:30,549  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:31,383  [INFO]  [BIZ12] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/BIZ12.idf
+2026-03-19 14:51:31,388  [INFO]  [BIZ12] Tropical adjustments applied ✓
+2026-03-19 14:51:31,472  [INFO]  [BIZ12] Prepared IDF saved → outputs/BIZ12/prepared/BIZ12_prepared.idf
+2026-03-19 14:51:31,472  [INFO]  [BIZ12] Starting EnergyPlus simulation...
+2026-03-19 14:51:31,472  [INFO]  [BIZ12] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/BIZ12/simulation --output-prefix BIZ12 outputs/BIZ12/prepared/BIZ12_prepared.idf
+2026-03-19 14:51:31,736  [ERROR]  [BIZ12] Simulation FAILED after 0.3s
+2026-03-19 14:51:31,736  [ERROR]  [BIZ12] STDERR: 
+2026-03-19 14:51:31,736  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:31,736  [INFO]  Processing: BIZ14
+2026-03-19 14:51:31,736  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:32,370  [INFO]  [BIZ14] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/BIZ14.idf
+2026-03-19 14:51:32,377  [INFO]  [BIZ14] Tropical adjustments applied ✓
+2026-03-19 14:51:32,486  [INFO]  [BIZ14] Prepared IDF saved → outputs/BIZ14/prepared/BIZ14_prepared.idf
+2026-03-19 14:51:32,486  [INFO]  [BIZ14] Starting EnergyPlus simulation...
+2026-03-19 14:51:32,486  [INFO]  [BIZ14] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/BIZ14/simulation --output-prefix BIZ14 outputs/BIZ14/prepared/BIZ14_prepared.idf
+2026-03-19 14:51:32,663  [ERROR]  [BIZ14] Simulation FAILED after 0.2s
+2026-03-19 14:51:32,664  [ERROR]  [BIZ14] STDERR: 
+2026-03-19 14:51:32,664  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:32,664  [INFO]  Processing: BIZ8
+2026-03-19 14:51:32,664  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:32,796  [INFO]  [BIZ8] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/BIZ8.idf
+2026-03-19 14:51:32,797  [INFO]  [BIZ8] Tropical adjustments applied ✓
+2026-03-19 14:51:32,820  [INFO]  [BIZ8] Prepared IDF saved → outputs/BIZ8/prepared/BIZ8_prepared.idf
+2026-03-19 14:51:32,821  [INFO]  [BIZ8] Starting EnergyPlus simulation...
+2026-03-19 14:51:32,821  [INFO]  [BIZ8] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/BIZ8/simulation --output-prefix BIZ8 outputs/BIZ8/prepared/BIZ8_prepared.idf
+2026-03-19 14:51:32,999  [ERROR]  [BIZ8] Simulation FAILED after 0.2s
+2026-03-19 14:51:32,999  [ERROR]  [BIZ8] STDERR: 
+2026-03-19 14:51:32,999  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:32,999  [INFO]  Processing: CLB6
+2026-03-19 14:51:32,999  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:33,220  [INFO]  [CLB6] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/CLB6.idf
+2026-03-19 14:51:33,222  [INFO]  [CLB6] Tropical adjustments applied ✓
+2026-03-19 14:51:33,257  [INFO]  [CLB6] Prepared IDF saved → outputs/CLB6/prepared/CLB6_prepared.idf
+2026-03-19 14:51:33,257  [INFO]  [CLB6] Starting EnergyPlus simulation...
+2026-03-19 14:51:33,257  [INFO]  [CLB6] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/CLB6/simulation --output-prefix CLB6 outputs/CLB6/prepared/CLB6_prepared.idf
+2026-03-19 14:51:33,420  [ERROR]  [CLB6] Simulation FAILED after 0.2s
+2026-03-19 14:51:33,420  [ERROR]  [CLB6] STDERR: 
+2026-03-19 14:51:33,420  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:33,421  [INFO]  Processing: FASS2
+2026-03-19 14:51:33,421  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:33,984  [INFO]  [FASS2] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FASS2.idf
+2026-03-19 14:51:33,988  [INFO]  [FASS2] Tropical adjustments applied ✓
+2026-03-19 14:51:34,074  [INFO]  [FASS2] Prepared IDF saved → outputs/FASS2/prepared/FASS2_prepared.idf
+2026-03-19 14:51:34,074  [INFO]  [FASS2] Starting EnergyPlus simulation...
+2026-03-19 14:51:34,074  [INFO]  [FASS2] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FASS2/simulation --output-prefix FASS2 outputs/FASS2/prepared/FASS2_prepared.idf
+2026-03-19 14:51:34,239  [ERROR]  [FASS2] Simulation FAILED after 0.2s
+2026-03-19 14:51:34,239  [ERROR]  [FASS2] STDERR: 
+2026-03-19 14:51:34,239  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:34,239  [INFO]  Processing: FASS6
+2026-03-19 14:51:34,239  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:34,930  [INFO]  [FASS6] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FASS6.idf
+2026-03-19 14:51:34,935  [INFO]  [FASS6] Tropical adjustments applied ✓
+2026-03-19 14:51:35,040  [INFO]  [FASS6] Prepared IDF saved → outputs/FASS6/prepared/FASS6_prepared.idf
+2026-03-19 14:51:35,041  [INFO]  [FASS6] Starting EnergyPlus simulation...
+2026-03-19 14:51:35,041  [INFO]  [FASS6] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FASS6/simulation --output-prefix FASS6 outputs/FASS6/prepared/FASS6_prepared.idf
+2026-03-19 14:51:35,213  [ERROR]  [FASS6] Simulation FAILED after 0.2s
+2026-03-19 14:51:35,213  [ERROR]  [FASS6] STDERR: 
+2026-03-19 14:51:35,213  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:35,213  [INFO]  Processing: FASS7
+2026-03-19 14:51:35,213  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:35,630  [INFO]  [FASS7] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FASS7.idf
+2026-03-19 14:51:35,633  [INFO]  [FASS7] Tropical adjustments applied ✓
+2026-03-19 14:51:35,693  [INFO]  [FASS7] Prepared IDF saved → outputs/FASS7/prepared/FASS7_prepared.idf
+2026-03-19 14:51:35,694  [INFO]  [FASS7] Starting EnergyPlus simulation...
+2026-03-19 14:51:35,694  [INFO]  [FASS7] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FASS7/simulation --output-prefix FASS7 outputs/FASS7/prepared/FASS7_prepared.idf
+2026-03-19 14:51:35,859  [ERROR]  [FASS7] Simulation FAILED after 0.2s
+2026-03-19 14:51:35,859  [ERROR]  [FASS7] STDERR: 
+2026-03-19 14:51:35,859  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:35,860  [INFO]  Processing: FOE13
+2026-03-19 14:51:35,860  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:36,483  [INFO]  [FOE13] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOE13.idf
+2026-03-19 14:51:36,490  [INFO]  [FOE13] Tropical adjustments applied ✓
+2026-03-19 14:51:36,595  [INFO]  [FOE13] Prepared IDF saved → outputs/FOE13/prepared/FOE13_prepared.idf
+2026-03-19 14:51:36,595  [INFO]  [FOE13] Starting EnergyPlus simulation...
+2026-03-19 14:51:36,595  [INFO]  [FOE13] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOE13/simulation --output-prefix FOE13 outputs/FOE13/prepared/FOE13_prepared.idf
+2026-03-19 14:51:36,759  [ERROR]  [FOE13] Simulation FAILED after 0.2s
+2026-03-19 14:51:36,760  [ERROR]  [FOE13] STDERR: 
+2026-03-19 14:51:36,760  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:36,760  [INFO]  Processing: FOE18
+2026-03-19 14:51:36,760  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:36,877  [INFO]  [FOE18] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOE18.idf
+2026-03-19 14:51:36,878  [INFO]  [FOE18] Tropical adjustments applied ✓
+2026-03-19 14:51:36,902  [INFO]  [FOE18] Prepared IDF saved → outputs/FOE18/prepared/FOE18_prepared.idf
+2026-03-19 14:51:36,902  [INFO]  [FOE18] Starting EnergyPlus simulation...
+2026-03-19 14:51:36,902  [INFO]  [FOE18] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOE18/simulation --output-prefix FOE18 outputs/FOE18/prepared/FOE18_prepared.idf
+2026-03-19 14:51:37,065  [ERROR]  [FOE18] Simulation FAILED after 0.2s
+2026-03-19 14:51:37,065  [ERROR]  [FOE18] STDERR: 
+2026-03-19 14:51:37,065  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:37,065  [INFO]  Processing: FOE6
+2026-03-19 14:51:37,065  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:37,530  [INFO]  [FOE6] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOE6.idf
+2026-03-19 14:51:37,534  [INFO]  [FOE6] Tropical adjustments applied ✓
+2026-03-19 14:51:37,610  [INFO]  [FOE6] Prepared IDF saved → outputs/FOE6/prepared/FOE6_prepared.idf
+2026-03-19 14:51:37,610  [INFO]  [FOE6] Starting EnergyPlus simulation...
+2026-03-19 14:51:37,610  [INFO]  [FOE6] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOE6/simulation --output-prefix FOE6 outputs/FOE6/prepared/FOE6_prepared.idf
+2026-03-19 14:51:37,774  [ERROR]  [FOE6] Simulation FAILED after 0.2s
+2026-03-19 14:51:37,774  [ERROR]  [FOE6] STDERR: 
+2026-03-19 14:51:37,775  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:37,775  [INFO]  Processing: FOE9
+2026-03-19 14:51:37,775  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:38,308  [INFO]  [FOE9] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOE9.idf
+2026-03-19 14:51:38,313  [INFO]  [FOE9] Tropical adjustments applied ✓
+2026-03-19 14:51:38,398  [INFO]  [FOE9] Prepared IDF saved → outputs/FOE9/prepared/FOE9_prepared.idf
+2026-03-19 14:51:38,399  [INFO]  [FOE9] Starting EnergyPlus simulation...
+2026-03-19 14:51:38,399  [INFO]  [FOE9] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOE9/simulation --output-prefix FOE9 outputs/FOE9/prepared/FOE9_prepared.idf
+2026-03-19 14:51:38,573  [ERROR]  [FOE9] Simulation FAILED after 0.2s
+2026-03-19 14:51:38,573  [ERROR]  [FOE9] STDERR: 
+2026-03-19 14:51:38,573  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:38,573  [INFO]  Processing: FOS1
+2026-03-19 14:51:38,573  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:38,828  [INFO]  [FOS1] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS1.idf
+2026-03-19 14:51:38,831  [INFO]  [FOS1] Tropical adjustments applied ✓
+2026-03-19 14:51:38,874  [INFO]  [FOS1] Prepared IDF saved → outputs/FOS1/prepared/FOS1_prepared.idf
+2026-03-19 14:51:38,874  [INFO]  [FOS1] Starting EnergyPlus simulation...
+2026-03-19 14:51:38,874  [INFO]  [FOS1] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS1/simulation --output-prefix FOS1 outputs/FOS1/prepared/FOS1_prepared.idf
+2026-03-19 14:51:39,044  [ERROR]  [FOS1] Simulation FAILED after 0.2s
+2026-03-19 14:51:39,044  [ERROR]  [FOS1] STDERR: 
+2026-03-19 14:51:39,044  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:39,044  [INFO]  Processing: FOS11
+2026-03-19 14:51:39,044  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:39,363  [INFO]  [FOS11] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS11.idf
+2026-03-19 14:51:39,366  [INFO]  [FOS11] Tropical adjustments applied ✓
+2026-03-19 14:51:39,418  [INFO]  [FOS11] Prepared IDF saved → outputs/FOS11/prepared/FOS11_prepared.idf
+2026-03-19 14:51:39,418  [INFO]  [FOS11] Starting EnergyPlus simulation...
+2026-03-19 14:51:39,418  [INFO]  [FOS11] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS11/simulation --output-prefix FOS11 outputs/FOS11/prepared/FOS11_prepared.idf
+2026-03-19 14:51:39,593  [ERROR]  [FOS11] Simulation FAILED after 0.2s
+2026-03-19 14:51:39,593  [ERROR]  [FOS11] STDERR: 
+2026-03-19 14:51:39,593  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:39,593  [INFO]  Processing: FOS14
+2026-03-19 14:51:39,593  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:40,105  [INFO]  [FOS14] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS14.idf
+2026-03-19 14:51:40,109  [INFO]  [FOS14] Tropical adjustments applied ✓
+2026-03-19 14:51:40,189  [INFO]  [FOS14] Prepared IDF saved → outputs/FOS14/prepared/FOS14_prepared.idf
+2026-03-19 14:51:40,189  [INFO]  [FOS14] Starting EnergyPlus simulation...
+2026-03-19 14:51:40,189  [INFO]  [FOS14] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS14/simulation --output-prefix FOS14 outputs/FOS14/prepared/FOS14_prepared.idf
+2026-03-19 14:51:40,370  [ERROR]  [FOS14] Simulation FAILED after 0.2s
+2026-03-19 14:51:40,371  [ERROR]  [FOS14] STDERR: 
+2026-03-19 14:51:40,371  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:40,371  [INFO]  Processing: FOS28
+2026-03-19 14:51:40,371  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:40,648  [INFO]  [FOS28] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS28.idf
+2026-03-19 14:51:40,650  [INFO]  [FOS28] Tropical adjustments applied ✓
+2026-03-19 14:51:40,698  [INFO]  [FOS28] Prepared IDF saved → outputs/FOS28/prepared/FOS28_prepared.idf
+2026-03-19 14:51:40,698  [INFO]  [FOS28] Starting EnergyPlus simulation...
+2026-03-19 14:51:40,698  [INFO]  [FOS28] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS28/simulation --output-prefix FOS28 outputs/FOS28/prepared/FOS28_prepared.idf
+2026-03-19 14:51:40,870  [ERROR]  [FOS28] Simulation FAILED after 0.2s
+2026-03-19 14:51:40,870  [ERROR]  [FOS28] STDERR: 
+2026-03-19 14:51:40,870  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:40,870  [INFO]  Processing: FOS34
+2026-03-19 14:51:40,870  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:41,278  [INFO]  [FOS34] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS34.idf
+2026-03-19 14:51:41,282  [INFO]  [FOS34] Tropical adjustments applied ✓
+2026-03-19 14:51:41,346  [INFO]  [FOS34] Prepared IDF saved → outputs/FOS34/prepared/FOS34_prepared.idf
+2026-03-19 14:51:41,346  [INFO]  [FOS34] Starting EnergyPlus simulation...
+2026-03-19 14:51:41,346  [INFO]  [FOS34] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS34/simulation --output-prefix FOS34 outputs/FOS34/prepared/FOS34_prepared.idf
+2026-03-19 14:51:41,520  [ERROR]  [FOS34] Simulation FAILED after 0.2s
+2026-03-19 14:51:41,520  [ERROR]  [FOS34] STDERR: 
+2026-03-19 14:51:41,520  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:41,520  [INFO]  Processing: FOS38
+2026-03-19 14:51:41,520  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:42,040  [INFO]  [FOS38] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS38.idf
+2026-03-19 14:51:42,043  [INFO]  [FOS38] Tropical adjustments applied ✓
+2026-03-19 14:51:42,119  [INFO]  [FOS38] Prepared IDF saved → outputs/FOS38/prepared/FOS38_prepared.idf
+2026-03-19 14:51:42,119  [INFO]  [FOS38] Starting EnergyPlus simulation...
+2026-03-19 14:51:42,119  [INFO]  [FOS38] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS38/simulation --output-prefix FOS38 outputs/FOS38/prepared/FOS38_prepared.idf
+2026-03-19 14:51:42,295  [ERROR]  [FOS38] Simulation FAILED after 0.2s
+2026-03-19 14:51:42,295  [ERROR]  [FOS38] STDERR: 
+2026-03-19 14:51:42,295  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:42,295  [INFO]  Processing: FOS40
+2026-03-19 14:51:42,295  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:42,731  [INFO]  [FOS40] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS40.idf
+2026-03-19 14:51:42,733  [INFO]  [FOS40] Tropical adjustments applied ✓
+2026-03-19 14:51:42,795  [INFO]  [FOS40] Prepared IDF saved → outputs/FOS40/prepared/FOS40_prepared.idf
+2026-03-19 14:51:42,795  [INFO]  [FOS40] Starting EnergyPlus simulation...
+2026-03-19 14:51:42,795  [INFO]  [FOS40] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS40/simulation --output-prefix FOS40 outputs/FOS40/prepared/FOS40_prepared.idf
+2026-03-19 14:51:42,973  [ERROR]  [FOS40] Simulation FAILED after 0.2s
+2026-03-19 14:51:42,973  [ERROR]  [FOS40] STDERR: 
+2026-03-19 14:51:42,973  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:42,973  [INFO]  Processing: FOS43
+2026-03-19 14:51:42,973  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:43,493  [INFO]  [FOS43] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS43.idf
+2026-03-19 14:51:43,496  [INFO]  [FOS43] Tropical adjustments applied ✓
+2026-03-19 14:51:43,559  [INFO]  [FOS43] Prepared IDF saved → outputs/FOS43/prepared/FOS43_prepared.idf
+2026-03-19 14:51:43,559  [INFO]  [FOS43] Starting EnergyPlus simulation...
+2026-03-19 14:51:43,559  [INFO]  [FOS43] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS43/simulation --output-prefix FOS43 outputs/FOS43/prepared/FOS43_prepared.idf
+2026-03-19 14:51:43,724  [ERROR]  [FOS43] Simulation FAILED after 0.2s
+2026-03-19 14:51:43,724  [ERROR]  [FOS43] STDERR: 
+2026-03-19 14:51:43,724  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:43,724  [INFO]  Processing: FOS45
+2026-03-19 14:51:43,724  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:44,332  [INFO]  [FOS45] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS45.idf
+2026-03-19 14:51:44,337  [INFO]  [FOS45] Tropical adjustments applied ✓
+2026-03-19 14:51:44,436  [INFO]  [FOS45] Prepared IDF saved → outputs/FOS45/prepared/FOS45_prepared.idf
+2026-03-19 14:51:44,436  [INFO]  [FOS45] Starting EnergyPlus simulation...
+2026-03-19 14:51:44,436  [INFO]  [FOS45] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS45/simulation --output-prefix FOS45 outputs/FOS45/prepared/FOS45_prepared.idf
+2026-03-19 14:51:44,601  [ERROR]  [FOS45] Simulation FAILED after 0.2s
+2026-03-19 14:51:44,601  [ERROR]  [FOS45] STDERR: 
+2026-03-19 14:51:44,602  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:44,602  [INFO]  Processing: FOS46
+2026-03-19 14:51:44,602  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:45,276  [INFO]  [FOS46] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS46.idf
+2026-03-19 14:51:45,283  [INFO]  [FOS46] Tropical adjustments applied ✓
+2026-03-19 14:51:45,406  [INFO]  [FOS46] Prepared IDF saved → outputs/FOS46/prepared/FOS46_prepared.idf
+2026-03-19 14:51:45,406  [INFO]  [FOS46] Starting EnergyPlus simulation...
+2026-03-19 14:51:45,406  [INFO]  [FOS46] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS46/simulation --output-prefix FOS46 outputs/FOS46/prepared/FOS46_prepared.idf
+2026-03-19 14:51:45,570  [ERROR]  [FOS46] Simulation FAILED after 0.2s
+2026-03-19 14:51:45,570  [ERROR]  [FOS46] STDERR: 
+2026-03-19 14:51:45,570  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:45,570  [INFO]  Processing: FOS8
+2026-03-19 14:51:45,570  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:45,861  [INFO]  [FOS8] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS8.idf
+2026-03-19 14:51:45,863  [INFO]  [FOS8] Tropical adjustments applied ✓
+2026-03-19 14:51:45,908  [INFO]  [FOS8] Prepared IDF saved → outputs/FOS8/prepared/FOS8_prepared.idf
+2026-03-19 14:51:45,908  [INFO]  [FOS8] Starting EnergyPlus simulation...
+2026-03-19 14:51:45,909  [INFO]  [FOS8] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS8/simulation --output-prefix FOS8 outputs/FOS8/prepared/FOS8_prepared.idf
+2026-03-19 14:51:46,076  [ERROR]  [FOS8] Simulation FAILED after 0.2s
+2026-03-19 14:51:46,076  [ERROR]  [FOS8] STDERR: 
+2026-03-19 14:51:46,076  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:51:46,076  [INFO]  Processing: FOS9
+2026-03-19 14:51:46,076  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:51:46,402  [INFO]  [FOS9] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/FOS9.idf
+2026-03-19 14:51:46,404  [INFO]  [FOS9] Tropical adjustments applied ✓
+2026-03-19 14:51:46,454  [INFO]  [FOS9] Prepared IDF saved → outputs/FOS9/prepared/FOS9_prepared.idf
+2026-03-19 14:51:46,455  [INFO]  [FOS9] Starting EnergyPlus simulation...
+2026-03-19 14:51:46,455  [INFO]  [FOS9] Command: /Applications/EnergyPlus-23-1-0/energyplus -w weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/FOS9/simulation --output-prefix FOS9 outputs/FOS9/prepared/FOS9_prepared.idf
+2026-03-19 14:51:46,623  [ERROR]  [FOS9] Simulation FAILED after 0.2s
+2026-03-19 14:51:46,623  [ERROR]  [FOS9] STDERR: 
+2026-03-19 14:51:46,627  [INFO]  
+============================================================
+2026-03-19 14:51:46,627  [INFO]  BATCH COMPLETE — 23 buildings processed
+2026-03-19 14:51:46,627  [INFO]  Summary saved → outputs/simulation_summary.csv
+2026-03-19 14:51:46,627  [INFO]  ============================================================
+2026-03-19 14:51:46,628  [INFO]  Calibrated:          0 buildings
+2026-03-19 14:51:46,628  [INFO]  Needs recalibration: 0 buildings (→ OpenClaw Stage 2)
+2026-03-19 14:51:46,628  [INFO]  No ground truth:     23 buildings
+2026-03-19 14:53:17,820  [INFO]  Found 23 IDF files to simulate
+2026-03-19 14:53:17,820  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:53:17,820  [INFO]  Processing: BIZ12
+2026-03-19 14:53:17,820  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:53:18,628  [INFO]  [BIZ12] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/BIZ12.idf
+2026-03-19 14:53:18,634  [INFO]  [BIZ12] Tropical adjustments applied ✓
+2026-03-19 14:53:18,719  [INFO]  [BIZ12] Prepared IDF saved → outputs/BIZ12/prepared/BIZ12_prepared.idf
+2026-03-19 14:53:18,719  [INFO]  [BIZ12] Starting EnergyPlus simulation...
+2026-03-19 14:53:18,719  [INFO]  [BIZ12] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/BIZ12/simulation --output-prefix BIZ12 outputs/BIZ12/prepared/BIZ12_prepared.idf
+2026-03-19 14:54:43,742  [ERROR]  [BIZ12] Simulation FAILED after 85.0s
+2026-03-19 14:54:43,742  [ERROR]  [BIZ12] STDERR: EnergyPlus Completed Successfully.
+
+2026-03-19 14:54:43,742  [INFO]  
+────────────────────────────────────────────────────────────
+2026-03-19 14:54:43,742  [INFO]  Processing: BIZ14
+2026-03-19 14:54:43,742  [INFO]  ────────────────────────────────────────────────────────────
+2026-03-19 14:54:44,413  [INFO]  [BIZ14] Loaded IDF — /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/idfs/BIZ14.idf
+2026-03-19 14:54:44,421  [INFO]  [BIZ14] Tropical adjustments applied ✓
+2026-03-19 14:54:44,531  [INFO]  [BIZ14] Prepared IDF saved → outputs/BIZ14/prepared/BIZ14_prepared.idf
+2026-03-19 14:54:44,531  [INFO]  [BIZ14] Starting EnergyPlus simulation...
+2026-03-19 14:54:44,532  [INFO]  [BIZ14] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/.openclaw/workspace-simulationagent/skills/nus-simulate/weather/SGP_Singapore.486980_IWEC.epw --output-directory outputs/BIZ14/simulation --output-prefix BIZ14 outputs/BIZ14/prepared/BIZ14_prepared.idf
