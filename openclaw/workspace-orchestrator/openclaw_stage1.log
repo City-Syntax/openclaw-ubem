@@ -1,0 +1,104 @@
+2026-04-12 13:53:59,568  [INFO]  [epw] Using Nimbus calibrated EPW for 2026-04: /Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw
+2026-04-12 13:53:59,568  [INFO]  [epw] Source: calibrated:2026-04  →  /Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw
+2026-04-12 13:54:00,402  [INFO]  [FOE1] Loaded IDF — /Users/ye/nus-energy/idfs/A1_L_L/FOE1.idf
+2026-04-12 13:54:00,406  [INFO]  [FOE1] Tropical adjustments applied ✓
+2026-04-12 13:54:00,407  [INFO]  [inject_outputs] Removed 42 pre-existing Output objects from IDF
+2026-04-12 13:54:00,407  [INFO]  [inject_outputs] Injected Output:Meter objects (incl. DistrictCooling) ✓
+2026-04-12 13:54:00,476  [INFO]  [FOE1] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-12 13:54:00,478  [INFO]  [FOE1] Cleaned 12 stale files from /Users/ye/nus-energy/outputs/FOE1/simulation
+2026-04-12 13:54:00,478  [INFO]  [FOE1] Starting EnergyPlus simulation...
+2026-04-12 13:54:00,478  [INFO]  [FOE1] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw --output-directory /Users/ye/nus-energy/outputs/FOE1/simulation --output-prefix FOE1 /Users/ye/nus-energy/outputs/FOE1/prepared/FOE1_prepared.idf
+2026-04-12 13:54:47,317  [INFO]  [FOE1] Simulation completed in 46.8s ✓
+2026-04-12 13:54:47,318  [INFO]  [FOE1] Floor area: 17279 m²  Annual EUI: 94.3 kWh/m²/yr
+2026-04-12 13:54:47,318  [INFO]  [FOE1] Annual end-use breakdown:
+2026-04-12 13:54:47,318  [INFO]    Lighting                          479,326 kWh  (29.4%)
+2026-04-12 13:54:47,318  [INFO]    Equipment                       1,150,383 kWh  (70.6%)
+2026-04-12 13:54:47,318  [INFO]    Cooling (thermal/district)     16,031,725 kWh  (983.7%)
+2026-04-12 13:54:47,318  [INFO]    Cooling (adj elec via COP)      3,562,606 kWh  (218.6%)
+2026-04-12 13:54:47,324  [INFO]  [FOE1] Monthly results → /Users/ye/nus-energy/outputs/FOE1/parsed/FOE1_monthly.csv (13 rows)
+2026-04-12 13:54:47,334  [INFO]  [FOE1] MAPE=43.70%  CVRMSE=43.81%  NMBE=+42.99%  ⚠️  NEEDS RECALIBRATION
+2026-04-12 13:54:47,334  [INFO]  [FOE1] Summary written → /Users/ye/nus-energy/outputs/simulation_summary.csv
+2026-04-13 08:50:11,296  [INFO]  [epw] Using caller-supplied EPW override: /Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw
+2026-04-13 08:50:11,296  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw)
+2026-04-13 08:50:11,296  [INFO]  [epw] Source: tmy:override  →  /Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw
+2026-04-13 08:50:11,889  [INFO]  [FOE18] Loaded IDF — /Users/ye/nus-energy/idfs/A1_H_L/FOE18.idf
+2026-04-13 08:50:11,891  [INFO]  [FOE18] Tropical adjustments applied ✓
+2026-04-13 08:50:11,891  [INFO]  [FOE18] Disabled external shading calculation results to avoid large shading.csv
+2026-04-13 08:50:11,891  [INFO]  [FOE18] Removed 1 OUTPUT:SURFACES:LIST object(s) not needed for standard simulation runs
+2026-04-13 08:50:11,891  [INFO]  [FOE18] Removed 1 OUTPUT:SURFACES:DRAWING object(s) not needed for standard simulation runs
+2026-04-13 08:50:11,891  [INFO]  [inject_outputs] Removed 42 pre-existing Output objects from IDF
+2026-04-13 08:50:11,892  [INFO]  [inject_outputs] Injected Output:Meter objects (incl. DistrictCooling) ✓
+2026-04-13 08:50:11,926  [INFO]  [FOE18] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE18/prepared/FOE18_prepared.idf
+2026-04-13 08:50:11,926  [INFO]  [FOE18] Starting EnergyPlus simulation...
+2026-04-13 08:50:11,926  [INFO]  [FOE18] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw --output-directory /Users/ye/nus-energy/outputs/FOE18/simulation --output-prefix FOE18 /Users/ye/nus-energy/outputs/FOE18/prepared/FOE18_prepared.idf
+2026-04-13 08:50:25,996  [INFO]  [FOE18] Simulation completed in 14.1s ✓
+2026-04-13 08:50:25,997  [INFO]  [FOE18] Floor area: 16388 m²  Annual EUI: 93.7 kWh/m²/yr
+2026-04-13 08:50:25,998  [INFO]  [FOE18] Annual end-use breakdown:
+2026-04-13 08:50:25,998  [INFO]    Lighting                          818,279 kWh  (53.3%)
+2026-04-13 08:50:25,998  [INFO]    Equipment                         717,788 kWh  (46.7%)
+2026-04-13 08:50:25,998  [INFO]    Cooling (thermal/district)     10,387,809 kWh  (676.3%)
+2026-04-13 08:50:25,998  [INFO]    Cooling (adj elec via COP)      2,308,402 kWh  (150.3%)
+2026-04-13 08:50:26,005  [INFO]  [FOE18] Monthly results → /Users/ye/nus-energy/outputs/FOE18/parsed/FOE18_monthly.csv (13 rows)
+2026-04-13 08:50:26,018  [INFO]  [FOE18] MAPE=315.17%  CVRMSE=308.65%  NMBE=+308.41%  ⚠️  NEEDS RECALIBRATION
+2026-04-13 08:50:26,019  [INFO]  [FOE18] Summary written → /Users/ye/nus-energy/outputs/simulation_summary.csv
+2026-04-13 08:50:26,337  [INFO]  [epw] Using caller-supplied EPW override: /Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw
+2026-04-13 08:50:26,337  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw)
+2026-04-13 08:50:26,337  [INFO]  [epw] Source: tmy:override  →  /Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw
+2026-04-13 08:50:27,319  [INFO]  [FOS43] Loaded IDF — /Users/ye/nus-energy/idfs/A1_H_L/FOS43.idf
+2026-04-13 08:50:27,324  [INFO]  [FOS43] Tropical adjustments applied ✓
+2026-04-13 08:50:27,324  [INFO]  [FOS43] Disabled external shading calculation results to avoid large shading.csv
+2026-04-13 08:50:27,324  [INFO]  [FOS43] Removed 1 OUTPUT:SURFACES:LIST object(s) not needed for standard simulation runs
+2026-04-13 08:50:27,324  [INFO]  [FOS43] Removed 1 OUTPUT:SURFACES:DRAWING object(s) not needed for standard simulation runs
+2026-04-13 08:50:27,324  [INFO]  [inject_outputs] Removed 42 pre-existing Output objects from IDF
+2026-04-13 08:50:27,325  [INFO]  [inject_outputs] Injected Output:Meter objects (incl. DistrictCooling) ✓
+2026-04-13 08:50:27,411  [INFO]  [FOS43] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOS43/prepared/FOS43_prepared.idf
+2026-04-13 08:50:27,411  [INFO]  [FOS43] Starting EnergyPlus simulation...
+2026-04-13 08:50:27,411  [INFO]  [FOS43] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/calibrated/2026-04_site_calibrated.epw --output-directory /Users/ye/nus-energy/outputs/FOS43/simulation --output-prefix FOS43 /Users/ye/nus-energy/outputs/FOS43/prepared/FOS43_prepared.idf
+2026-04-13 08:51:03,431  [INFO]  [epw] Using caller-supplied EPW override: /Users/ye/nus-energy/weather/calibrated/2025-10_site_calibrated.epw
+2026-04-13 08:51:03,431  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/calibrated/2025-10_site_calibrated.epw)
+2026-04-13 08:51:03,431  [INFO]  [epw] Source: tmy:override  →  /Users/ye/nus-energy/weather/calibrated/2025-10_site_calibrated.epw
+2026-04-13 08:51:04,048  [INFO]  [FOE18] Loaded IDF — /Users/ye/nus-energy/idfs/A1_H_L/FOE18.idf
+2026-04-13 08:51:04,050  [INFO]  [FOE18] Tropical adjustments applied ✓
+2026-04-13 08:51:04,050  [INFO]  [FOE18] Disabled external shading calculation results to avoid large shading.csv
+2026-04-13 08:51:04,050  [INFO]  [FOE18] Removed 1 OUTPUT:SURFACES:LIST object(s) not needed for standard simulation runs
+2026-04-13 08:51:04,050  [INFO]  [FOE18] Removed 1 OUTPUT:SURFACES:DRAWING object(s) not needed for standard simulation runs
+2026-04-13 08:51:04,050  [INFO]  [inject_outputs] Removed 42 pre-existing Output objects from IDF
+2026-04-13 08:51:04,051  [INFO]  [inject_outputs] Injected Output:Meter objects (incl. DistrictCooling) ✓
+2026-04-13 08:51:04,088  [INFO]  [FOE18] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOE18/prepared/FOE18_prepared.idf
+2026-04-13 08:51:04,089  [INFO]  [FOE18] Cleaned 14 stale files from /Users/ye/nus-energy/outputs/FOE18/simulation
+2026-04-13 08:51:04,089  [INFO]  [FOE18] Starting EnergyPlus simulation...
+2026-04-13 08:51:04,089  [INFO]  [FOE18] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/calibrated/2025-10_site_calibrated.epw --output-directory /Users/ye/nus-energy/outputs/FOE18/simulation --output-prefix FOE18 /Users/ye/nus-energy/outputs/FOE18/prepared/FOE18_prepared.idf
+2026-04-13 08:51:18,508  [INFO]  [FOE18] Simulation completed in 14.4s ✓
+2026-04-13 08:51:18,510  [INFO]  [FOE18] Floor area: 16388 m²  Annual EUI: 93.7 kWh/m²/yr
+2026-04-13 08:51:18,510  [INFO]  [FOE18] Annual end-use breakdown:
+2026-04-13 08:51:18,510  [INFO]    Lighting                          818,279 kWh  (53.3%)
+2026-04-13 08:51:18,510  [INFO]    Equipment                         717,788 kWh  (46.7%)
+2026-04-13 08:51:18,510  [INFO]    Cooling (thermal/district)     10,401,255 kWh  (677.1%)
+2026-04-13 08:51:18,510  [INFO]    Cooling (adj elec via COP)      2,311,390 kWh  (150.5%)
+2026-04-13 08:51:18,514  [INFO]  [FOE18] Monthly results → /Users/ye/nus-energy/outputs/FOE18/parsed/FOE18_monthly.csv (13 rows)
+2026-04-13 08:51:18,523  [INFO]  [FOE18] MAPE=315.17%  CVRMSE=308.65%  NMBE=+308.41%  ⚠️  NEEDS RECALIBRATION
+2026-04-13 08:51:18,526  [INFO]  [FOE18] Summary written → /Users/ye/nus-energy/outputs/simulation_summary.csv
+2026-04-13 08:51:18,839  [INFO]  [epw] Using caller-supplied EPW override: /Users/ye/nus-energy/weather/calibrated/2025-10_site_calibrated.epw
+2026-04-13 08:51:18,839  [WARNING]  [epw] No Nimbus calibrated EPW found — using base TMY (/Users/ye/nus-energy/weather/calibrated/2025-10_site_calibrated.epw)
+2026-04-13 08:51:18,839  [INFO]  [epw] Source: tmy:override  →  /Users/ye/nus-energy/weather/calibrated/2025-10_site_calibrated.epw
+2026-04-13 08:51:19,868  [INFO]  [FOS43] Loaded IDF — /Users/ye/nus-energy/idfs/A1_H_L/FOS43.idf
+2026-04-13 08:51:19,873  [INFO]  [FOS43] Tropical adjustments applied ✓
+2026-04-13 08:51:19,873  [INFO]  [FOS43] Disabled external shading calculation results to avoid large shading.csv
+2026-04-13 08:51:19,873  [INFO]  [FOS43] Removed 1 OUTPUT:SURFACES:LIST object(s) not needed for standard simulation runs
+2026-04-13 08:51:19,873  [INFO]  [FOS43] Removed 1 OUTPUT:SURFACES:DRAWING object(s) not needed for standard simulation runs
+2026-04-13 08:51:19,874  [INFO]  [inject_outputs] Removed 42 pre-existing Output objects from IDF
+2026-04-13 08:51:19,874  [INFO]  [inject_outputs] Injected Output:Meter objects (incl. DistrictCooling) ✓
+2026-04-13 08:51:19,964  [INFO]  [FOS43] Prepared IDF saved → /Users/ye/nus-energy/outputs/FOS43/prepared/FOS43_prepared.idf
+2026-04-13 08:51:19,965  [INFO]  [FOS43] Cleaned 13 stale files from /Users/ye/nus-energy/outputs/FOS43/simulation
+2026-04-13 08:51:19,965  [INFO]  [FOS43] Starting EnergyPlus simulation...
+2026-04-13 08:51:19,965  [INFO]  [FOS43] Command: /Applications/EnergyPlus-23-1-0/energyplus -w /Users/ye/nus-energy/weather/calibrated/2025-10_site_calibrated.epw --output-directory /Users/ye/nus-energy/outputs/FOS43/simulation --output-prefix FOS43 /Users/ye/nus-energy/outputs/FOS43/prepared/FOS43_prepared.idf
+2026-04-13 08:51:58,111  [INFO]  [FOS43] Simulation completed in 90.7s ✓
+2026-04-13 08:51:58,112  [WARNING]  [FOS43] No recognised end-use meters found in .mtr header — check that _inject_outputs() ran before simulation
+2026-04-13 08:51:58,112  [WARNING]  [FOS43] No monthly data in .mtr — file may be empty or simulation failed
+2026-04-13 08:51:58,114  [INFO]  [FOS43] Monthly results → /Users/ye/nus-energy/outputs/FOS43/parsed/FOS43_monthly.csv (0 rows)
+2026-04-13 08:51:58,120  [WARNING]  [FOS43] No electricity_facility column found for MAPE calculation
+2026-04-13 08:52:52,155  [INFO]  [FOS43] Simulation completed in 92.2s ✓
+2026-04-13 08:52:52,155  [WARNING]  [FOS43] No recognised end-use meters found in .mtr header — check that _inject_outputs() ran before simulation
+2026-04-13 08:52:52,155  [WARNING]  [FOS43] No monthly data in .mtr — file may be empty or simulation failed
+2026-04-13 08:52:52,158  [INFO]  [FOS43] Monthly results → /Users/ye/nus-energy/outputs/FOS43/parsed/FOS43_monthly.csv (0 rows)
+2026-04-13 08:52:52,163  [WARNING]  [FOS43] No electricity_facility column found for MAPE calculation
